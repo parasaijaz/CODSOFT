@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+.skills{
+    margin: auto;
+    width: 1100px;
+    padding: 100px 0;
+    color: black;
+}
+.skills h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+.contents{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.lefts{
+    width: 50%;
+}
+.lefts h1{
+    font-size: 30px;
+    margin-right: 290px;
+}
+.lefts p{
+    font-size: 18px;
+    margin: 25px 0;
+}
+.lefts a{
+    background-color: crimson;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.lefts a:hover{
+    background-color: transparent;
+    color: crimson;
+}
+.rights{
+    flex: 1;
+    margin-left: 30px;
+}
+.rights .line{
+    margin-bottom: 15px;
+}
+.rights .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rights .info span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.rights .bars{
+    background-color: lightgrey;
+    height: 5px;
+    width: 100%;
+    position: relative;
+}
+.rights .bars::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    background-color: crimson;
+}
+.rights .html::before{
+    width: 90%;
+}
+.rights .js::before{
+    width: 20%;
+}
+.rights .php::before{
+    width: 40%;
+}
+.rights .css::before{
+    width: 90%;
+}
