@@ -37,11 +37,11 @@ footer {
 section .title {
     position: relative;
     text-align: center;
-    font-size: 40px;
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
+    color: crimson;
 }
 
 
@@ -66,21 +66,27 @@ section .title::after {
 
 .contact .contact-content .column {
     width: calc(50% - 30px);
+    width: 100%;
 }
 
 .contact .contact-content .text {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 20px;
+    text-align: center;
+    color: #00bfff;
 }
 
 .contact .contact-content .left p {
     text-align: justify;
     color: black;
+    text-align: center;
+    font-size: 17px;
 }
 
 .contact .contact-content .left .icons {
     max-width: 10px 0;
+    font-weight: bold;
 }
 
 .contact .contact-content .row {

@@ -16,7 +16,7 @@ body{
     text-align: center;
     font-size: 40px;
     font-weight: 600;
-    color: black;
+    color: crimson;
 }
 .contents{
     display: flex;
@@ -29,6 +29,7 @@ body{
 .lefts h1{
     font-size: 30px;
     margin-right: 290px;
+    color: #00bfff;
 }
 .lefts p{
     font-size: 18px;
@@ -47,6 +48,7 @@ body{
 .lefts a:hover{
     background-color: transparent;
     color: crimson;
+    border: 2px solid crimson;
 }
 .rights{
     flex: 1;

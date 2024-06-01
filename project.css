@@ -32,7 +32,7 @@ body{
     font-size: 2.5rem;
     font-weight: 600;
     text-transform: uppercase;
-    color: #222222;
+    color: crimson;
 }
 .project-heading span{
     color: #f33c3c;
@@ -48,7 +48,7 @@ body{
 .project-filter li{
     margin: 10px;
     padding: 5px 20px;
-    color: #9b9b9b;
+    color: #00bfff;
     font-size: 1rem;
     letter-spacing: 0.5px;
     font-weight: 400;
@@ -68,7 +68,7 @@ body{
     margin: auto;
 }
 h2{
-    color: black;
+    color: crimson;
     text-align: center;
 }
 p{
@@ -101,7 +101,7 @@ h1{
     text-align: center;
 }
 .container a{
-    color: #222222;
+    color: crimson;
     font-weight: bold;
     font-size: 20px;
 }
